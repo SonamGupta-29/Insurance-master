@@ -5,7 +5,7 @@ body{
                'Lucida Grande', 'Lucida Sans Unicode', 
                Geneva, Verdana, sans-serif;
 
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
   width: 100%;
  
@@ -83,7 +83,7 @@ textfield span::before{
 .pass:hover{
   text-decoration: underline;
 }
-input[type="submit"]{
+button[type="submit"]{
   width: 50%;
   height: 50px;
   border: 1px solid;
@@ -97,7 +97,7 @@ input[type="submit"]{
   margin-left: 20%;
 }
 
-input[type="submit"]:hover{
+button[type="submit"]:hover{
 border-color: chartreus;
 transition: 5s;
 }
